@@ -1,0 +1,1 @@
+give @s stick[item_model="minecraft:arrow",custom_data={tool:"arrow",hold:false},consumable={consume_seconds:999999,animation:"none"}]

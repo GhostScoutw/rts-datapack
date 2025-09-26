@@ -1,0 +1,1 @@
+$particle dust{color:[$(r),$(g),$(b)],scale:0.75} ~ ~ ~ 0.15 0.15 0.15 0 5 force @p[tag=this.player]

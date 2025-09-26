@@ -1,0 +1,1 @@
+give @s stick[item_model="minecraft:amethyst_shard",custom_data={tool:"selector",hold:false},consumable={consume_seconds:999999,animation:"none"}]

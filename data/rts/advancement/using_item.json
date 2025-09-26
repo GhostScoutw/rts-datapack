@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement":{
+            "trigger": "using_item"
+        }
+    },
+    "rewards": {
+        "function": "rts:player/using_item"
+    }
+}
