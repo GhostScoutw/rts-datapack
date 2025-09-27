@@ -1,6 +1,7 @@
 
-summon pig ~ ~ ~ {Tags:["troop","pig","init"],NoAI:true,\
-    CustomName:"Pig"\
+summon villager ~ ~ ~ {Tags:["troop","miner","init"],NoAI:true,\
+    VillagerData:{profession:"mason",type:"plains"},\
+    CustomName:"Miner"\
 }
 
 

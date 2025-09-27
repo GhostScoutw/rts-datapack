@@ -1,1 +1,1 @@
-$particle dust{color:[$(r),$(g),$(b)],scale:0.75} ~ ~ ~ 0.15 0.15 0.15 0 5 force @p[tag=this.player]
+$particle dust{color:[$(r),$(g),$(b)],scale:1} ~ ~ ~ 0.15 0.15 0.15 0 1 normal @p[tag=this.player]

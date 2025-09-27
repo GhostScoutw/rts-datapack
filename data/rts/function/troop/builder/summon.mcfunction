@@ -1,6 +1,7 @@
 
-summon pig ~ ~ ~ {Tags:["troop","pig","init"],NoAI:true,\
-    CustomName:"Pig"\
+summon villager ~ ~ ~ {Tags:["troop","builder","init"],NoAI:true,\
+    VillagerData:{profession:"leatherworker",type:"plains"},\
+    CustomName:"Builder"\
 }
 
 

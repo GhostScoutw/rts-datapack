@@ -2,7 +2,7 @@
 execute positioned ^ ^ ^0.25 \
         if block ~ ~ ~ air \
         unless entity @p[tag=this.player,distance=30..] \
-    run return run function rts:player/items/arrow/use
+    run return run function rts:player/items/move/use
 
 execute store result score count temp if entity @e[tag=these.troops,tag=selected]
 

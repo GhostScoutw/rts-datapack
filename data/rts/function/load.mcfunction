@@ -3,6 +3,13 @@ tellraw @a {text:"|#| RTS Pathfinding Datapack Reloaded |#|",color:gold}
 scoreboard objectives add temp dummy
 
 scoreboard objectives add generic.id dummy
+scoreboard objectives add generic.hp dummy
+scoreboard objectives add generic.hp.max dummy
+scoreboard objectives add generic.armor dummy
+scoreboard objectives add generic.armor.max dummy
+
+scoreboard objectives add generic.attack_cooldown dummy
+scoreboard objectives add generic.attack_cooldown.max dummy
 
 scoreboard objectives add generic.color.r dummy
 scoreboard objectives add generic.color.g dummy

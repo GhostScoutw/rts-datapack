@@ -1,6 +1,6 @@
 
-summon pig ~ ~ ~ {Tags:["troop","pig","init"],NoAI:true,\
-    CustomName:"Pig"\
+summon wandering_trader ~ ~ ~ {Tags:["troop","mage","init"],NoAI:true,\
+    CustomName:"Mage"\
 }
 
 

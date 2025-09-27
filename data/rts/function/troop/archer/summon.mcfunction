@@ -1,8 +1,8 @@
 
-summon pig ~ ~ ~ {Tags:["troop","pig","init"],NoAI:true,\
-    CustomName:"Pig"\
+summon villager ~ ~ ~ {Tags:["troop","archer","init"],NoAI:true,\
+    VillagerData:{profession:"fletcher",type:"plains"},\
+    CustomName:"Archer"\
 }
-
 
 scoreboard players operation @n[tag=troop,tag=init] generic.id = @s generic.id
 execute as @n[tag=troop,tag=init] run function rts:troop/get_id
