@@ -1,1 +1,1 @@
-$execute anchored eyes positioned ~ ~2 ~ run particle dust{color:[$(r),$(g),$(b)],scale:1.5} ~ ~ ~ 0.1 0.1 0.1 0 1 force @p[tag=this.player]
+$execute anchored eyes positioned ~ ~2 ~ run particle dust{color:[$(r),$(g),$(b)],scale:1.5} ^ ^ ^ 0.1 0.1 0.1 0 1 force @p[tag=this.player]

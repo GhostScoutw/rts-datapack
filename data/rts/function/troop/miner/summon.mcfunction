@@ -1,5 +1,5 @@
 
-summon villager ~ ~ ~ {Tags:["troop","miner","init"],NoAI:true,\
+summon villager ~ ~ ~ {Tags:["troop","miner","init","transporter"],NoAI:true,\
     VillagerData:{profession:"mason",type:"plains"},\
     CustomName:"Miner"\
 }
@@ -17,10 +17,12 @@ execute as @n[tag=troop,tag=init] on passengers run tag @s remove init
 execute as @n[tag=troop,tag=init] on passengers run scoreboard players operation @s generic.id = @n[tag=troop,tag=init] generic.id
 execute as @n[tag=troop,tag=init] on passengers run data merge entity @s {transformation:{translation:[0,1f,0]}}
 
+
 execute as @n[tag=troop,tag=init] \
     store result score @s generic.attack_cooldown run scoreboard players set @s generic.attack_cooldown.max 30
+execute as @n[tag=troop,tag=init] run attribute @s max_health base set 30
 execute as @n[tag=troop,tag=init] \
-    store result score @s generic.hp run scoreboard players set @s generic.hp.max 30
+    store result score @s generic.hp store result score @s generic.hp.max store result entity @s Health float 1 run attribute @s max_health base get
 
 
 tag @n[tag=troop,tag=init] remove init
