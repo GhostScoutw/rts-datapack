@@ -1,0 +1,1 @@
+scoreboard players operation @s troop.target = @n[tag=tree,distance=..10,tag=!regenerating] troop.id

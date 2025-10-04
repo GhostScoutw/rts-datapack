@@ -17,5 +17,6 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 if score count temp matches 1 as @n[
 #more than 1 troop
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if score count temp matches 2.. run function rts:pathfind/around_here
 
+execute as @e[tag=these.troops,tag=selected] run scoreboard players reset @s troop.target
 execute as @e[tag=these.troops,tag=selected] run tag @s remove selected
 
